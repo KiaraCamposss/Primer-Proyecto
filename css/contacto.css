@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.banner {
+    display: flex;
+    background-color: #b28382;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.titulo {
+    margin: 5%;
+    padding: 5%;
+
+}
+
+.titulo h1 {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 40px;
+}
+
+.titulo p,
+.titulo span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.redesSociales div {
+    margin-left: 3%;
+}
+.redesSociales div i{
+    background-color: #7c675b;
+    color: #fff;
+    font-size: 3rem;
+    border-radius: 50%;
+    padding: 2rem;
+}
+.redesSociales div p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.otros{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+.otros div{
+    margin: 7%;
+    background-color: #87a19a;
+    padding: 1.7rem;
+    border-radius: 10%;
+    width: 50%;
+}
+
+.subtitulo{
+    display: flex;
+}
+.subtitulo i{
+    font-size: 2.5rem;
+    margin-right: 3rem; 
+}
+.subtitulo p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+/*Formulario*/
+
+.titulo{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+#formulario {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.formulario legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b28382;
+    margin-bottom: 10px;
+}
+
+.formulario label {
+    margin-bottom: 8px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario input[type="color"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px); /* Ajuste para el padding */
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.formulario select {
+    width: 100%;
+}
+
+.formulario input[type="submit"], 
+.formulario input[type="button"] {
+    padding: 10px 20px;
+    background-color: #b28382;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}

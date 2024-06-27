@@ -1,0 +1,71 @@
+
+/*Footer*/
+footer {
+    background-color: var(--cafe-color);
+}
+
+.contenidoFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+    color: #fff;
+}
+
+.menuFooter {
+    display: grid;
+    gap: 3rem;
+
+}
+
+.TituloFooter {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.contactoInfo {
+    gap: 2rem;
+}
+
+.contactoInfo div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+
+.contactoInfo div div {
+    flex-direction: column;
+    margin: 0 5%;
+
+}
+
+.contactoInfo div p {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.contactoInfo div span {
+    font-weight: 300;
+}
+
+.redesSocialesFooter {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 5rem;
+}
+
+.redesSocialesFooter i {
+    padding: 0 5px;
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+.redesSocialesFooter i:hover {
+    opacity: 1;
+}

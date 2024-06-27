@@ -1,0 +1,28 @@
+.preguntas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 40rem);
+    color: #fff;
+}
+
+.preguntas div {
+    background-color: #b28382;
+    margin: 10%;
+    width: 60%;
+    height: 75%;
+    border-radius: 10%;
+    padding: 5%;
+    text-align: center;
+
+}
+
+.preguntas p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.preguntas span {
+    font-size: 1.7rem;
+    font-weight: 300;
+}

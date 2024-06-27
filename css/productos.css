@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.banner {
+    display: flex;
+    background-color: #b28382;
+    height: 500px;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-weight: bold;
+    color: #fbf4eb;
+
+}
+
+.texto h1 {
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 50px;
+}
+
+.texto span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.circulo {
+    width: 40rem;
+    height: 40rem;
+    /* El mismo valor que el width para un círculo perfecto */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagenesProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagenesProductos div {
+    flex-direction: row;
+    text-align: center;
+    background-color: #87a19a;
+    border-radius: 20%;
+    margin: 5rem;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    color: #fbf4eb;
+}
+
+.imagenesProductos div img {
+    width: 200px;
+    height: 250px;
+    margin: 3rem;
+    border-radius: 20%;
+    margin-bottom: 7px;
+
+}
+
+.imagenesProductos :hover,
+.imagenesProductos :focus {
+    transform: scale(1.05);
+    /* Ampliar un poco la imagen al pasar el cursor por encima */
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.486);
+    /* Sombra más grande al pasar el cursor por encima */
+    outline: none;
+    /* Elimina la línea del cursor */
+}
+
+.caracteristicas {
+    display: flex;
+    background-color: #7c675b;
+    flex-direction: row;
+    color: #fbf4eb;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+}
+
+.imagen img {
+    margin-left: -30%;
+    border-radius: 30%;
+    height: 100%;
+}
+
+.lista {
+    margin: 10rem;
+}
+
+.lista ul li {
+    width: 50%;
+    margin: 3%;
+}
+
+.lista ul li p {
+    font-weight: bold;
+}
+
+.video {
+    display: flex;
+padding: 5%;
+
+    background-color: #87a19a;
+}
+.video h1{
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 50px;
+    justify-content: center;
+    color: #fff;
+}
